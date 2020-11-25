@@ -7,14 +7,6 @@
 - `npm run build`
 - `npm start`
 
-### Database note
-
-```
-For demonstration purposes, I have left URI to temporal
-MongoDB database inside the code. No need to create a new database.
-Just install dependencies and you are ready to test the API.
-```
-
 ## REST API structure
 
 - List problems: `GET /api/problems/`
