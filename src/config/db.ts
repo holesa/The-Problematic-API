@@ -1,8 +1,8 @@
 import * as mongoose from 'mongoose'
 
 export const connectDB = async () => {
-  // Testing database 
-  const mongoURI = 'mongodb+srv://test:12345@problematicapi.hevpd.mongodb.net/problematic_api?retryWrites=true&w=majority';
+
+  const mongoURI = '';
   try {
     const conn = await mongoose.connect(mongoURI)
     console.log('MongoDB Connected')
